@@ -30,9 +30,9 @@ function TodoList() {
   }
   function handleEdit(id) {
     let data = {
-      name: prompt("yangi ism"),
+      name: prompt("New Name"),
       id,
-      email: prompt("yangi narx"),
+      email: prompt("New email"),
     };
     edit(data);
   }
